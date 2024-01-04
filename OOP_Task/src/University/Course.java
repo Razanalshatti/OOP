@@ -25,13 +25,13 @@ public class Course {
             return instructor;
         }
         public void setInstructor(String newInstructor){
-            course = newInstructor;
+            instructor = newInstructor;
         }
         public int getEnrolledStudent(){
             return enrolledStudent;
         }
-        public void setEnrolledStudent(String newEnrolledStudent){
-            course = newEnrolledStudent;
+        public void setEnrolledStudent(int newEnrolledStudent){
+            enrolledStudent = newEnrolledStudent;
         }
 
 
