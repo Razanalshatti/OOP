@@ -1,3 +1,4 @@
+package University;
 public class Course {
     String course;
     String instructor;
@@ -44,4 +45,3 @@ System.out.println(java.toString());
 }
 
     
-
